@@ -89,7 +89,7 @@ public class StudentLab {
     
       //Hiển thị
     public void display(){
-        System.out.format("Tên học sinh: "+this.name+" Tuổi: "+this.age+" ĐiểmTB: ");
+        System.out.format("Tên học sinh: "+this.name+" Tuổi: "+this.age+" ĐiểmTB: " + avg());
         
     }
       

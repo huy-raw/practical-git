@@ -20,6 +20,7 @@ public class ProgStudentTest {
     static void nhapThongTin(StudentLab infor) {
         //Nhập ID
         System.out.println("Nhập ID :");
+        
         infor.setId(nhap.nextLine());
         //Nhập tên
         System.out.println("Nhập tên :");
@@ -44,12 +45,12 @@ public class ProgStudentTest {
     
     
     public static void main(String[] args) {
-        // TODO code application logic here
+        
              StudentLab  ds_Student[] = null;
-     
+             Scanner sc = new Scanner(System.in);
              //Nhập thông tin sinh viên
              System.out.println("Nhập số lương sinh viên cần khai báo: ");
-                int n = nhap.nextInt();
+                int n = Integer.parseInt(sc.nextLine());
                 ds_Student = new StudentLab[n];
                 for (int i = 0; i < n; i++) {
                     System.out.println("Sinh viên thứ " + (i + 1)+": ");
