@@ -97,5 +97,4 @@ public class StudentLab {
         System.out.println("This is my method");
     }
     
-    
 }
