@@ -93,7 +93,9 @@ public class StudentLab {
         
     }
       
-    
+    public void Que(){
+        System.out.println("This is my method");
+    }
     
     
 }
