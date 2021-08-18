@@ -93,7 +93,9 @@ public class StudentLab {
         
     }
       
-    
+    public void methodCuaHuy(){
+        System.out.println(" Xin chao cac ban minh la Huy ");
+    }
     
     
 }
